@@ -123,7 +123,7 @@ align-items: center;
 justify-content: center;
 }
 .header-bottom-side-right img{
-    width: 115%;
+    width: 100%;
 }
 
 /* media queries */
@@ -163,6 +163,7 @@ justify-content: center;
         text-align: center;
         padding: 0.8rem;
     }
+    
 }
 
 /*header */
@@ -187,6 +188,9 @@ main{
 .cols-3{
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
+}
+.cols-3 img{
+    width: 100%;
 }
 .cols-4 img{
     max-width: 100%;
@@ -345,7 +349,8 @@ main{
     display: flex;
 }
 .download-options>div img{
-    width: 180px;
+    width: 30%;
+    gap: 6rem;
 }
 .logo-footer{
     text-align: center;
@@ -383,10 +388,15 @@ main{
         display: inline;
     }
     .download-options>div img{
-        width: 120px;
+        width: 50%;
+    }
+    .links-footer ul{
+        list-style: none;
+       
     }
     .copyright{
         font-size: 0.8rem;
+        text-align: center;
     }
 }
 
